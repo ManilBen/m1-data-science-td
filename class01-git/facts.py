@@ -9,10 +9,13 @@ people = [
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
+    Person(github_login='manilben', first_name='Manil', last_name='Bendali',
+           facts=['I can jump', 'I am a Masters student', 'I am 10 yo']),
 ]
 #facts are numerated from 0
 answers = {'example': 1,
-           'javanochka': 2}
+           'javanochka': 2,
+           'manilben': 2}
 
 
 def format_person_info(person):
